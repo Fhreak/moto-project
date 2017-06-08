@@ -1,0 +1,28 @@
+/*#page-wrapper{
+  min-height: auto;
+}*/
+.navbar-default {
+  background-color: #f3f3f4;
+  border-color: #2f4050;
+
+}
+.container{
+  background-color: #f3f3f4;
+}
+
+.top{
+  padding-top: 10%;
+}
+
+body {
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f3f3f4;
+  font-size: 13px;
+  color: #676a6c;
+  overflow-x: hidden;
+}
+/* FOOTER */
+.footer {
+  text-align: center;
+  position: relative;
+}
