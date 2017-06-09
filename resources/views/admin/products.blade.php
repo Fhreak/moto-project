@@ -187,8 +187,8 @@
                   <label for="active" class="col-sm-3 control-label">Imagen de Producto</label>
 
                   <div class="col-sm-9">
-                    <!-- <imagepreview></imagepreview> -->
-                    <input type="file" name="images[]" multiple> 
+                    <imagepreview></imagepreview> 
+                    <!--<input type="file" name="images[]" multiple> -->
                   </div>
                 </div>
 
