@@ -32,7 +32,14 @@ Route::group(['prefix' => 'admin'], function(){
       return App\Product::all();
   });
 
+
   Route::get('getData', 'ProductsController@getProductsData');
 
-  Route::post('addNewProduct', 'ProductsController@addNewProduct');
+  //Route::post('addNewProduct', 'ProductsController@addNewProduct');
+
+
+  Route::post('addNewProduct', array(
+    'uses' => 'ProductsController@addNewProduct',
+    'as'   => 'addNewProduct'
+    ));
 });

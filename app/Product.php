@@ -12,12 +12,12 @@ class Product extends Model
    *
    * @var array
    */
-  protected $fillable = ['brand_id', 'model_id', 'category_id', 'supplier_id', 'name', 'unit_price', 'stock', 'description'];
+  protected $fillable = ['brand_id', 'category_id', 'supplier_id', 'name', 'unit_price', 'stock', 'description', 'active∫'];
 
 
   public static $columns = [
                     'name', 'unit_price', 'stock', 'brand_id',
-                    'model_id', 'category_id', 'supplier_id'
+                    'category_id', 'supplier_id'
                 ];
   /*
   'nombre', 'valor Unit.', 'stock', 'descripción',
@@ -26,9 +26,6 @@ class Product extends Model
   */
   public function brand($id){
     return \Brand::find($id);
-  }
-  public function model(){
-    return $this->belongsTo('App\Model');
   }
   public function category(){
     return $this->belongsTo('App\Category');
@@ -58,9 +55,21 @@ class Product extends Model
 
 
     return $query->select('name', 'unit_price', 'stock', 'brand_id',
-                          'model_id', 'category_id', 'supplier_id')
+                          'category_id', 'supplier_id')
                           ->orderBy($request->column, $request->direction)
                           ->paginate($request->per_page);
+  }
+
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | MUTATORS
+  |--------------------------------------------------------------------------
+  */
+
+  public function setActiveAttribute($value){
+    $this->attributes['active'] = ($value == 'on') ? '1' : '0';
   }
 
 }

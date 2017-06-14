@@ -48,7 +48,7 @@
                             </div>
                         </div>
 
-                        <div id="loginButton"class="form-group">
+                        <div id="loginButton" class="form-group">
                             <div class="col-md-8 col-md-offset-4">
                                 <button @click="spinner = true"  type="submit" class="btn btn-primary">
                                     iniciar sesión <i  v-show="spinner" class="fa fa-spinner fa-spin"></i>

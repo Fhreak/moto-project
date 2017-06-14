@@ -43,22 +43,15 @@
                     </span>
                   </th>
                   <th @click="toggleOrder(columns[4])">
-                    <span>Modelo</span>
+                    <span>Categoria</span>
                     <span v-if="columns[4] === query.column">
                       <i v-if="query.direction === 'desc'" class="fa fa-long-arrow-down pull-right"></i>
                       <i v-else class="fa fa-long-arrow-up pull-right"></i>
                     </span>
                   </th>
                   <th @click="toggleOrder(columns[5])">
-                    <span>Categoria</span>
-                    <span v-if="columns[5] === query.column">
-                      <i v-if="query.direction === 'desc'" class="fa fa-long-arrow-down pull-right"></i>
-                      <i v-else class="fa fa-long-arrow-up pull-right"></i>
-                    </span>
-                  </th>
-                  <th @click="toggleOrder(columns[6])">
                     <span>Proveedor</span>
-                    <span v-if="columns[6] === query.column">
+                    <span v-if="columns[5] === query.column">
                       <i v-if="query.direction === 'desc'" class="fa fa-long-arrow-down pull-right"></i>
                       <i v-else class="fa fa-long-arrow-up pull-right"></i>
                     </span>

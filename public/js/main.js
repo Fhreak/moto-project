@@ -61,7 +61,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -72,10 +72,10 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* script */
-__vue_exports__ = __webpack_require__(2)
+__vue_exports__ = __webpack_require__(3)
 
 /* template */
-var __vue_template__ = __webpack_require__(5)
+var __vue_template__ = __webpack_require__(8)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -87,7 +87,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "C:\\Users\\ripley1\\Documents\\proyectos\\moto\\resources\\assets\\js\\components\\ImagePreview.vue"
+__vue_options__.__file = "/Users/RocknRolla/Documents/Proyectos/moto-project/resources/assets/js/components/ImagePreview.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -98,9 +98,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5828ea02", __vue_options__)
+    hotAPI.createRecord("data-v-e1b585c0", __vue_options__)
   } else {
-    hotAPI.reload("data-v-5828ea02", __vue_options__)
+    hotAPI.reload("data-v-e1b585c0", __vue_options__)
   }
 })()}
 if (__vue_options__.functional) {console.error("[vue-loader] ImagePreview.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -116,10 +116,10 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* script */
-__vue_exports__ = __webpack_require__(3)
+__vue_exports__ = __webpack_require__(4)
 
 /* template */
-var __vue_template__ = __webpack_require__(4)
+var __vue_template__ = __webpack_require__(7)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -131,7 +131,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "C:\\Users\\ripley1\\Documents\\proyectos\\moto\\resources\\assets\\js\\components\\Products.vue"
+__vue_options__.__file = "/Users/RocknRolla/Documents/Proyectos/moto-project/resources/assets/js/components/Products.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -142,9 +142,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-289c0879", __vue_options__)
+    hotAPI.createRecord("data-v-7b8a9a97", __vue_options__)
   } else {
-    hotAPI.reload("data-v-289c0879", __vue_options__)
+    hotAPI.reload("data-v-7b8a9a97", __vue_options__)
   }
 })()}
 if (__vue_options__.functional) {console.error("[vue-loader] Products.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -154,6 +154,50 @@ module.exports = __vue_exports__
 
 /***/ },
 /* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* script */
+__vue_exports__ = __webpack_require__(5)
+
+/* template */
+var __vue_template__ = __webpack_require__(6)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/Users/RocknRolla/Documents/Proyectos/moto-project/resources/assets/js/components/UploadImagePreview.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-050525fe", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-050525fe", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] UploadImagePreview.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -206,17 +250,10 @@ module.exports = __vue_exports__
 
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -391,7 +428,54 @@ module.exports = __vue_exports__
 
 
 /***/ },
-/* 4 */
+/* 5 */
+/***/ function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/***/ },
+/* 6 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+  return _h('div', [_h('div', [_h('input', {
+    attrs: {
+      "type": "file",
+      "name": "file[]",
+      "multiple": ""
+    },
+    on: {
+      "change": _vm.onFileChange
+    }
+  })]), " ", (_vm.image) ? _h('div', [_h('img', {
+    staticClass: "img-pre",
+    attrs: {
+      "src": _vm.image
+    }
+  }), " ", _h('button', ["Remover imagen"])]) : _vm._e()])
+},staticRenderFns: []}
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-050525fe", module.exports)
+  }
+}
+
+/***/ },
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
@@ -481,7 +565,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
         _vm.toggleOrder(_vm.columns[4])
       }
     }
-  }, [_h('span', ["Modelo"]), " ", (_vm.columns[4] === _vm.query.column) ? _h('span', [(_vm.query.direction === 'desc') ? _h('i', {
+  }, [_h('span', ["Categoria"]), " ", (_vm.columns[4] === _vm.query.column) ? _h('span', [(_vm.query.direction === 'desc') ? _h('i', {
     staticClass: "fa fa-long-arrow-down pull-right"
   }) : _h('i', {
     staticClass: "fa fa-long-arrow-up pull-right"
@@ -491,17 +575,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
         _vm.toggleOrder(_vm.columns[5])
       }
     }
-  }, [_h('span', ["Categoria"]), " ", (_vm.columns[5] === _vm.query.column) ? _h('span', [(_vm.query.direction === 'desc') ? _h('i', {
-    staticClass: "fa fa-long-arrow-down pull-right"
-  }) : _h('i', {
-    staticClass: "fa fa-long-arrow-up pull-right"
-  }), " "]) : _vm._e()]), " ", _h('th', {
-    on: {
-      "click": function($event) {
-        _vm.toggleOrder(_vm.columns[6])
-      }
-    }
-  }, [_h('span', ["Proveedor"]), " ", (_vm.columns[6] === _vm.query.column) ? _h('span', [(_vm.query.direction === 'desc') ? _h('i', {
+  }, [_h('span', ["Proveedor"]), " ", (_vm.columns[5] === _vm.query.column) ? _h('span', [(_vm.query.direction === 'desc') ? _h('i', {
     staticClass: "fa fa-long-arrow-down pull-right"
   }) : _h('i', {
     staticClass: "fa fa-long-arrow-up pull-right"
@@ -540,12 +614,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-289c0879", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-7b8a9a97", module.exports)
   }
 }
 
 /***/ },
-/* 5 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
@@ -572,16 +646,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5828ea02", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-e1b585c0", module.exports)
   }
 }
 
 /***/ },
-/* 6 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 Vue.component('products', __webpack_require__(1));
 Vue.component('imagepreview', __webpack_require__(0));
+Vue.component('uploadimagepreview', __webpack_require__(2));
 
 var showLoginSpinner = new Vue ({
 
@@ -596,9 +671,72 @@ var showLoginSpinner = new Vue ({
 var productsViewer = new Vue({
 
   el: '#app-products',
+
+  data: {
+  	formInputs: {},
+  	formErrors: {}
+  },
+
+  methods: {
+  	submitForm: function(e) {
+
+  	  if(!e) e = window.event; 	//Add this line to work fine on Firefox navigator
+  	  
+	  var form = e.target; 		// or e.srcElemet; 
+	  var action = form.action;
+	  var csrfToken = form.querySelector('input[name="_token"]').value;
+
+	  this.$http.post(action, this.formInputs, {
+	    headers: {
+	        'X-CSRF-TOKEN': csrfToken
+	    }
+	  })
+	  .then(function() {
+	        form.submit();
+	  })
+	  .catch(function (data, status, request) {
+	    var errors = data.data;
+	    this.formErrors = errors;
+	  });
+	}
+  },
   
 });
 
+var imageForm = new Vue({
+
+  el: '#image-form',
+
+  data: {
+  	formInputs: {},
+  	formErrors: {}
+  },
+
+  methods: {
+  	submitForm: function(e) {
+
+  	  if(!e) e = window.event; 	//Add this line to work fine on Firefox navigator
+
+	  var form = e.target; 		// or e.srcElemet; 
+	  var action = form.action;
+	  var csrfToken = form.querySelector('input[name="_token"]').value;
+
+	  this.$http.post(action, this.formInputs, {
+	    headers: {
+	        'X-CSRF-TOKEN': csrfToken
+	    }
+	  })
+	  .then(function() {
+	        form.submit();
+	  })
+	  .catch(function (data, status, request) {
+	    var errors = data.data;
+	    this.formErrors = errors;
+	  });
+	}
+  },
+  
+});
 
 /***/ }
 /******/ ]);
